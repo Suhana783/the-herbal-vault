@@ -1,0 +1,110 @@
+[
+  {
+    "id": 1,
+    "title": "The Complete Guide to Growing Basil at Home",
+    "body": "Basil is a fragrant herb used in cooking and natural healing, known for its fresh aroma and ability to boost digestion and immunity.",
+    "image": "/src/assets/basil.jpg",
+    "tags": ["Gardening", "Culinary"],
+    "date": "November 18, 2025",
+    "readTime": "6 min read"
+  },
+  {
+    "id": 2,
+    "title": "Lavender: Ancient Remedy for Modern Stress",
+    "body": "Lavender is known for its calming scent that helps reduce stress and anxiety while also benefiting the skin and improving sleep quality.",
+    "image": "/src/assets/lavender.jpeg",
+    "tags": ["Wellness", "Herbal"],
+    "date": "November 12, 2025",
+    "readTime": "7 min read"
+  },
+  {
+    "id": 3,
+    "title": "Rosemary: The Herb of Remembrance and Health",
+    "body": "Rosemary supports memory, digestion, and overall wellness, offering strong aroma and traditional medicinal benefits.",
+    "image": "/src/assets/rosemary.jpeg",
+    "tags": ["Herbal", "Culinary"],
+    "date": "November 10, 2025",
+    "readTime": "5 min read"
+  },
+  {
+    "id": 4,
+    "title": "Mint: More Than Just Fresh Breath",
+    "body": "Mint refreshes the senses, aids digestion, and provides natural relief from headaches, colds, and nausea.",
+    "image": "/src/assets/mint.jpeg",
+    "tags": ["Medicinal", "Wellness"],
+    "date": "November 8, 2025",
+    "readTime": "6 min read"
+  },
+  {
+    "id": 5,
+    "title": "Thyme: The Antimicrobial Powerhouse",
+    "body": "Thyme is a powerful antimicrobial herb that supports immunity and adds rich flavor to meals and herbal remedies.",
+    "image": "/src/assets/thyme.jpg",
+    "tags": ["Herbal", "Medicinal"],
+    "date": "November 5, 2025",
+    "readTime": "6 min read"
+  },
+  {
+    "id": 6,
+    "title": "Chamomile: Nature’s Gentle Healer",
+    "body": "Chamomile gently relaxes the body, eases stress, and helps improve sleep and digestion with its soothing natural properties.",
+    "image": "/src/assets/chamomile.webp",
+    "tags": ["Relaxation", "Medicinal"],
+    "date": "November 3, 2025",
+    "readTime": "5 min read"
+  },
+  {
+    "id": 7,
+    "title": "Sage: The Herb of Wisdom and Purification",
+    "body": "Sage supports mental clarity, digestion, and respiratory health, and is widely used in traditional cleansing rituals.",
+    "image": "/src/assets/sage.jpg",
+    "tags": ["Herbal", "Traditional"],
+    "date": "November 2, 2025",
+    "readTime": "6 min read"
+  },
+  {
+    "id": 8,
+    "title": "Lemon Balm: The Happiness Herb",
+    "body": "Lemon balm lifts mood, reduces stress, and promotes better sleep with its fresh, calming lemon scent.",
+    "image": "/src/assets/lemon-balm.webp",
+    "tags": ["Wellness", "Relaxation"],
+    "date": "November 1, 2025",
+    "readTime": "6 min read"
+  },
+  {
+    "id": 9,
+    "title": "Turmeric: Golden Spice of Life",
+    "body": "Turmeric is rich in antioxidants and anti-inflammatory compounds, helping boost immunity and overall health.",
+    "image": "/src/assets/turmeric.avif",
+    "tags": ["Medicinal", "Culinary"],
+    "date": "October 30, 2025",
+    "readTime": "7 min read"
+  },
+  {
+    "id": 10,
+    "title": "Aloe Vera: The Plant of Immortality",
+    "body": "Aloe vera hydrates the skin, heals wounds, and supports digestion with its cooling and soothing gel.",
+    "image": "/src/assets/aloe-vera.jpeg",
+    "tags": ["Medicinal", "Skincare"],
+    "date": "October 28, 2025",
+    "readTime": "5 min read"
+  },
+  {
+    "id": 11,
+    "title": "Oregano: The Natural Antibiotic",
+    "body": "Oregano contains strong natural antibacterial and antiviral properties, making it excellent for immunity and flavor.",
+    "image": "/src/assets/oregano.jpg",
+    "tags": ["Culinary", "Medicinal"],
+    "date": "October 26, 2025",
+    "readTime": "6 min read"
+  },
+  {
+    "id": 12,
+    "title": "Parsley: More Than a Garnish",
+    "body": "Parsley is rich in vitamins and antioxidants that support kidney function, freshen breath, and add nutrition to meals.",
+    "image": "/src/assets/Parsley.webp",
+    "tags": ["Culinary", "Wellness"],
+    "date": "October 25, 2025",
+    "readTime": "5 min read"
+  }
+]
