@@ -18,6 +18,36 @@ body {
   color: #0b4f28;
 }
 
+/* Sticky footer layout: Makes the app wrapper and layout flex containers */
+#root {
+  display: flex;
+  min-height: 100vh;
+}
+
+.app-wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  width: 100%;
+  /* Flex: 1 on child content areas will make them grow to fill space */
+}
+
+.app-layout {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  /* flex: 1 makes this container grow to fill available space,
+     pushing the footer to the bottom when content is short */
+}
+
+.app-content {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  /* flex: 1 makes the header and main content area expand to fill
+     available space, pushing the footer to the bottom */
+}
+
 a {
   color: inherit;
   text-decoration: none;

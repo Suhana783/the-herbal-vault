@@ -93,12 +93,18 @@ body {
 
 .grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-template-columns: repeat(4, 1fr);
   gap: 36px;
   margin-bottom: 70px;
 }
 
 /* Responsive Design */
+@media (max-width: 1440px) {
+  .grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
 @media (max-width: 1024px) {
   .grid {
     grid-template-columns: repeat(2, 1fr);
@@ -218,9 +224,11 @@ body {
   color: white;
   text-align: center;
   padding: 20px;
-  margin-top: 40px;
   font-size: 1.1rem;
   width: 100%;
+  /* No margin-top needed - Flexbox handles spacing automatically */
+  /* This footer will stay at bottom on short content, 
+     or scroll naturally when content is long */
 }
 
 @keyframes fadeInUp {

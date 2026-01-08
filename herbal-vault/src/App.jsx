@@ -25,20 +25,21 @@ function App() {
   };
 
   return (
-    <>
+    <div className="app-wrapper">
       <Routes>
         <Route
           path="/"
           element={
-            <>
-              <header className="hero">
-                <h1>Herbal Haven</h1>
-                <p>
-                  Discover the healing power of nature through herbs, their benefits, and traditional remedies.
-                </p>
-              </header>
+            <div className="app-layout">
+              <div className="app-content">
+                <header className="hero">
+                  <h1>Herbal Haven</h1>
+                  <p>
+                    Discover the healing power of nature through herbs, their benefits, and traditional remedies.
+                  </p>
+                </header>
 
-              <div className="container">
+                <div className="container">
                 {/* Navigation Toggle */}
                 <div className="nav-toggle">
                   <button 
@@ -58,15 +59,6 @@ function App() {
                 <h2 className="section-title">
                   {activeTab === "official" ? "Latest Articles" : "Community Contributions"}
                 </h2>
-
-                {activeTab === "community" && (
-                  <button 
-                    className="add-herb-btn"
-                    onClick={() => setIsModalOpen(true)}
-                  >
-                    + Add Your Herb
-                  </button>
-                )}
 
                 <div className="grid">
                   {(activeTab === "official" ? posts : communityHerbs).map((post) => (
@@ -95,6 +87,7 @@ function App() {
                   </div>
                 )}
               </div>
+              </div>
 
               <footer className="footer">© 2025 Herbal Haven</footer>
 
@@ -103,12 +96,12 @@ function App() {
                 onClose={() => setIsModalOpen(false)}
                 onAddHerb={handleAddHerb}
               />
-            </>
+            </div>
           }
         />
         <Route path="/herb/:id" element={<HerbDetail />} />
       </Routes>
-    </>
+    </div>
   );
 }
 

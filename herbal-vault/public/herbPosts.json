@@ -2,88 +2,241 @@
   {
     "id": 1,
     "title": "The Complete Guide to Growing Basil at Home",
-    "body": "Basil is a fragrant herb used in cooking and natural healing, known for its fresh aroma and ability to boost digestion and immunity.",
+    "body": "Basil is a fragrant culinary and medicinal herb known for supporting digestion, immunity, and overall wellness.",
+    "fullContent": "Basil (Ocimum basilicum) is a popular herb cultivated worldwide for its aromatic leaves and health-supporting properties. Native to tropical regions of Asia and Africa, basil has been used for centuries in traditional medicine and cooking. Rich in essential oils and antioxidants, basil helps support digestion, reduce inflammation, and strengthen the immune system. It is commonly used fresh in cooking, brewed as herbal tea, or applied in natural remedies.",
     "image": "/src/assets/basil.jpg",
-    "tags": ["Gardening", "Culinary"],
+    "tags": ["Gardening", "Culinary", "Medicinal"],
     "date": "November 18, 2025",
-    "readTime": "6 min read"
+    "readTime": "6 min read",
+    "healthBenefits": [
+      "Supports healthy digestion",
+      "Contains antioxidant compounds",
+      "Helps reduce inflammation",
+      "Supports immune system function",
+      "May help relieve stress",
+      "Supports heart health"
+    ],
+    "growingTips": [
+      "Plant in well-drained soil with full sunlight",
+      "Water regularly without waterlogging",
+      "Pinch flowers to promote leaf growth",
+      "Harvest leaves frequently",
+      "Protect from cold temperatures",
+      "Ideal for containers and indoor gardens"
+    ]
   },
   {
     "id": 2,
     "title": "Lavender: Ancient Remedy for Modern Stress",
-    "body": "Lavender is known for its calming scent that helps reduce stress and anxiety while also benefiting the skin and improving sleep quality.",
+    "body": "Lavender is valued for its calming aroma, stress relief, and skin-soothing properties.",
+    "fullContent": "Lavender (Lavandula angustifolia) is a Mediterranean herb known for its purple flowers and relaxing fragrance. Used extensively in aromatherapy and traditional medicine, lavender contains natural compounds that promote relaxation and emotional balance. It is widely used to improve sleep quality, ease headaches, and soothe skin conditions. Modern research supports many of its traditional calming uses.",
     "image": "/src/assets/lavender.jpeg",
-    "tags": ["Wellness", "Herbal"],
+    "tags": ["Wellness", "Herbal", "Relaxation"],
     "date": "November 12, 2025",
-    "readTime": "7 min read"
+    "readTime": "7 min read",
+    "healthBenefits": [
+      "Promotes relaxation",
+      "Improves sleep quality",
+      "Helps reduce anxiety",
+      "Soothes skin irritations",
+      "May relieve headaches",
+      "Supports emotional well-being"
+    ],
+    "growingTips": [
+      "Requires full sunlight",
+      "Plant in well-drained soil",
+      "Avoid overwatering",
+      "Prune after flowering",
+      "Prefers dry climates",
+      "Harvest flowers early in bloom"
+    ]
   },
   {
     "id": 3,
     "title": "Rosemary: The Herb of Remembrance and Health",
-    "body": "Rosemary supports memory, digestion, and overall wellness, offering strong aroma and traditional medicinal benefits.",
+    "body": "Rosemary is an aromatic herb that supports memory, digestion, and overall vitality.",
+    "fullContent": "Rosemary (Rosmarinus officinalis) is a woody perennial herb native to the Mediterranean region. Traditionally associated with memory and mental clarity, rosemary is rich in antioxidants and beneficial plant compounds. It supports digestion, circulation, and cognitive health. Widely used in cooking, herbal teas, and natural remedies, rosemary is both flavorful and functional.",
     "image": "/src/assets/rosemary.jpeg",
-    "tags": ["Herbal", "Culinary"],
+    "tags": ["Herbal", "Culinary", "Wellness"],
     "date": "November 10, 2025",
-    "readTime": "5 min read"
+    "readTime": "5 min read",
+    "healthBenefits": [
+      "Supports cognitive function",
+      "Aids digestion",
+      "Rich in antioxidants",
+      "Supports circulation",
+      "Has anti-inflammatory properties",
+      "Promotes scalp and hair health"
+    ],
+    "growingTips": [
+      "Plant in sandy, well-drained soil",
+      "Requires full sun",
+      "Water sparingly once established",
+      "Prune regularly",
+      "Suitable for indoor growing",
+      "Harvest sprigs as needed"
+    ]
   },
   {
     "id": 4,
     "title": "Mint: More Than Just Fresh Breath",
-    "body": "Mint refreshes the senses, aids digestion, and provides natural relief from headaches, colds, and nausea.",
+    "body": "Mint is a refreshing herb known for aiding digestion and relieving nausea and congestion.",
+    "fullContent": "Mint (Mentha species) is a fast-growing herb recognized for its cooling flavor and therapeutic effects. Used globally in teas, remedies, and culinary dishes, mint contains menthol, which contributes to its soothing and refreshing qualities. It supports digestive health, helps relieve headaches, and freshens breath. Mint is easy to grow but spreads rapidly.",
     "image": "/src/assets/mint.jpeg",
-    "tags": ["Medicinal", "Wellness"],
+    "tags": ["Medicinal", "Wellness", "Culinary"],
     "date": "November 8, 2025",
-    "readTime": "6 min read"
+    "readTime": "6 min read",
+    "healthBenefits": [
+      "Relieves indigestion",
+      "Reduces nausea",
+      "Freshens breath",
+      "Eases sinus congestion",
+      "Supports focus and alertness",
+      "Has antibacterial properties"
+    ],
+    "growingTips": [
+      "Grow in containers to control spread",
+      "Prefers moist soil",
+      "Thrives in partial shade",
+      "Harvest leaves frequently",
+      "Easy to propagate",
+      "Suitable for indoor growth"
+    ]
   },
   {
     "id": 5,
     "title": "Thyme: The Antimicrobial Powerhouse",
-    "body": "Thyme is a powerful antimicrobial herb that supports immunity and adds rich flavor to meals and herbal remedies.",
+    "body": "Thyme is a potent herb known for its antimicrobial and immune-supporting properties.",
+    "fullContent": "Thyme (Thymus vulgaris) is a Mediterranean herb traditionally valued for its medicinal and culinary uses. It contains thymol, a natural compound with strong antimicrobial and antioxidant properties. Thyme supports respiratory health, digestion, and immunity. It is commonly used in teas, remedies, and cooking.",
     "image": "/src/assets/thyme.jpg",
     "tags": ["Herbal", "Medicinal"],
     "date": "November 5, 2025",
-    "readTime": "6 min read"
+    "readTime": "6 min read",
+    "healthBenefits": [
+      "Supports immune function",
+      "Helps relieve coughs",
+      "Has antimicrobial properties",
+      "Rich in antioxidants",
+      "Supports digestion",
+      "Promotes respiratory health"
+    ],
+    "growingTips": [
+      "Plant in full sunlight",
+      "Requires well-drained soil",
+      "Low water requirements",
+      "Prune to maintain shape",
+      "Cold hardy plant",
+      "Harvest before flowering"
+    ]
   },
   {
     "id": 6,
     "title": "Chamomile: Nature’s Gentle Healer",
-    "body": "Chamomile gently relaxes the body, eases stress, and helps improve sleep and digestion with its soothing natural properties.",
+    "body": "Chamomile is a soothing herb widely used for relaxation, sleep, and digestive comfort.",
+    "fullContent": "Chamomile (Matricaria chamomilla) is a gentle medicinal herb known for its calming effects. Traditionally used as herbal tea, chamomile promotes relaxation, improves sleep quality, and soothes digestive discomfort. It contains natural compounds that support stress reduction and skin healing.",
     "image": "/src/assets/chamomile.webp",
     "tags": ["Relaxation", "Medicinal"],
     "date": "November 3, 2025",
-    "readTime": "5 min read"
+    "readTime": "5 min read",
+    "healthBenefits": [
+      "Promotes relaxation",
+      "Improves sleep",
+      "Soothes digestion",
+      "Reduces inflammation",
+      "Supports skin health",
+      "May ease anxiety"
+    ],
+    "growingTips": [
+      "Prefers cool temperatures",
+      "Plant in full sun",
+      "Moderate watering",
+      "Harvest flowers fully open",
+      "Self-seeding plant",
+      "Attracts pollinators"
+    ]
   },
   {
     "id": 7,
     "title": "Sage: The Herb of Wisdom and Purification",
-    "body": "Sage supports mental clarity, digestion, and respiratory health, and is widely used in traditional cleansing rituals.",
+    "body": "Sage is known for enhancing memory, digestion, and respiratory wellness.",
+    "fullContent": "Sage (Salvia officinalis) is a perennial herb with a long history in traditional medicine and rituals. It contains antioxidants that support cognitive health and digestion. Sage is widely used in cooking, teas, and natural remedies for throat and respiratory support.",
     "image": "/src/assets/sage.jpg",
     "tags": ["Herbal", "Traditional"],
     "date": "November 2, 2025",
-    "readTime": "6 min read"
+    "readTime": "6 min read",
+    "healthBenefits": [
+      "Supports memory",
+      "Aids digestion",
+      "Promotes oral health",
+      "Has antimicrobial properties",
+      "Supports hormonal balance",
+      "Rich in antioxidants"
+    ],
+    "growingTips": [
+      "Plant in full sun",
+      "Use well-drained soil",
+      "Avoid overwatering",
+      "Prune regularly",
+      "Harvest before flowering",
+      "Protect from excess moisture"
+    ]
   },
   {
     "id": 8,
     "title": "Lemon Balm: The Happiness Herb",
-    "body": "Lemon balm lifts mood, reduces stress, and promotes better sleep with its fresh, calming lemon scent.",
+    "body": "Lemon balm is a calming herb that lifts mood and reduces stress naturally.",
+    "fullContent": "Lemon balm (Melissa officinalis) is a lemon-scented herb traditionally used to promote relaxation and emotional balance. It supports sleep, digestion, and mental clarity. Known for its gentle calming effects, lemon balm is often consumed as tea or used in natural remedies.",
     "image": "/src/assets/lemon-balm.webp",
     "tags": ["Wellness", "Relaxation"],
     "date": "November 1, 2025",
-    "readTime": "6 min read"
+    "readTime": "6 min read",
+    "healthBenefits": [
+      "Reduces stress",
+      "Improves mood",
+      "Promotes restful sleep",
+      "Supports digestion",
+      "Enhances focus",
+      "Supports immune health"
+    ],
+    "growingTips": [
+      "Prefers partial shade",
+      "Moist soil required",
+      "Grows vigorously",
+      "Harvest before flowering",
+      "Best grown in containers",
+      "Easy to propagate"
+    ]
   },
   {
     "id": 9,
     "title": "Turmeric: Golden Spice of Life",
-    "body": "Turmeric is rich in antioxidants and anti-inflammatory compounds, helping boost immunity and overall health.",
+    "body": "Turmeric is a powerful anti-inflammatory herb supporting immunity and joint health.",
+    "fullContent": "Turmeric (Curcuma longa) is a bright yellow root used extensively in traditional medicine. Its active compound curcumin supports inflammation balance, immunity, and digestion. Turmeric is widely used in cooking and herbal remedies for overall wellness.",
     "image": "/src/assets/turmeric.avif",
     "tags": ["Medicinal", "Culinary"],
     "date": "October 30, 2025",
-    "readTime": "7 min read"
+    "readTime": "7 min read",
+    "healthBenefits": [
+      "Supports joint health",
+      "Has antioxidant properties",
+      "Supports digestion",
+      "Promotes immune function",
+      "Supports heart health",
+      "Aids liver function"
+    ],
+    "growingTips": [
+      "Requires warm climate",
+      "Plant in rich soil",
+      "Needs consistent moisture",
+      "Long growing cycle",
+      "Suitable for containers",
+      "Harvest after leaves dry"
+    ]
   },
   {
     "id": 10,
     "title": "Aloe Vera: The Plant of Immortality",
-    "body": "Aloe vera hydrates the skin, heals wounds, and supports digestion with its cooling and soothing gel.",
+    "body": "Aloe vera soothes skin, supports digestion, and hydrates the body naturally.",
     "image": "/src/assets/aloe-vera.jpeg",
     "tags": ["Medicinal", "Skincare"],
     "date": "October 28, 2025",
@@ -92,7 +245,7 @@
   {
     "id": 11,
     "title": "Oregano: The Natural Antibiotic",
-    "body": "Oregano contains strong natural antibacterial and antiviral properties, making it excellent for immunity and flavor.",
+    "body": "Oregano is rich in antimicrobial compounds that support immunity and digestion.",
     "image": "/src/assets/oregano.jpg",
     "tags": ["Culinary", "Medicinal"],
     "date": "October 26, 2025",
@@ -101,7 +254,7 @@
   {
     "id": 12,
     "title": "Parsley: More Than a Garnish",
-    "body": "Parsley is rich in vitamins and antioxidants that support kidney function, freshen breath, and add nutrition to meals.",
+    "body": "Parsley is a nutrient-rich herb supporting detoxification, digestion, and oral health.",
     "image": "/src/assets/Parsley.webp",
     "tags": ["Culinary", "Wellness"],
     "date": "October 25, 2025",
