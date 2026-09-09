@@ -8,20 +8,34 @@ import "./App.css";
 
 function App() {
   const [posts, setPosts] = useState([]);
-  const [communityHerbs, setCommunityHerbs] = useState([]);
+  const [communityHerbs, setCommunityHerbs] = useState(() => {
+    try {
+      return JSON.parse(localStorage.getItem("communityHerbs")) || [];
+    } catch {
+      return [];
+    }
+  });
   const [activeTab, setActiveTab] = useState("official");
   const [isModalOpen, setIsModalOpen] = useState(false);
 
   useEffect(() => {
     getPosts().then((data) => setPosts(data.slice(0, 9)));
-    const saved = JSON.parse(localStorage.getItem("communityHerbs")) || [];
-    setCommunityHerbs(saved);
+  }, []);
+
+  useEffect(() => {
+    const handler = () => {
+      const saved = JSON.parse(localStorage.getItem("communityHerbs")) || [];
+      setCommunityHerbs(saved);
+    };
+    window.addEventListener("communityHerbsUpdated", handler);
+    return () => window.removeEventListener("communityHerbsUpdated", handler);
   }, []);
 
   const handleAddHerb = (newHerb) => {
     const updated = [...communityHerbs, newHerb];
     setCommunityHerbs(updated);
     localStorage.setItem("communityHerbs", JSON.stringify(updated));
+    window.dispatchEvent(new Event("communityHerbsUpdated"));
   };
 
   return (
@@ -40,7 +54,7 @@ function App() {
                 </header>
 
                 <div className="container">
-                {/* Navigation Toggle */}
+               
                 <div className="nav-toggle">
                   <button 
                     className={`nav-btn ${activeTab === "official" ? "active" : ""}`}

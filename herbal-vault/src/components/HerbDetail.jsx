@@ -29,6 +29,8 @@ function HerbDetail() {
       const communityHerbs = JSON.parse(localStorage.getItem("communityHerbs")) || [];
       const updated = communityHerbs.filter((h) => h.id !== parseInt(id));
       localStorage.setItem("communityHerbs", JSON.stringify(updated));
+      // notify other parts of the app and navigate back
+      window.dispatchEvent(new Event("communityHerbsUpdated"));
       navigate("/");
     }
   };
@@ -44,6 +46,7 @@ function HerbDetail() {
     );
     localStorage.setItem("communityHerbs", JSON.stringify(updated));
     setHerb(editedHerb);
+    window.dispatchEvent(new Event("communityHerbsUpdated"));
     setIsEditing(false);
   };
 
